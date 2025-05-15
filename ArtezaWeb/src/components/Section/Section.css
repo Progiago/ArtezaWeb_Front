@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    height: 300px;
+    width: 120rem;
+    background-color: gray;
+    position: absolute;
+    z-index: 8;
+    border-radius: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.section-container{
+    display: flex;
+    margin-top: 200px;
+}
+

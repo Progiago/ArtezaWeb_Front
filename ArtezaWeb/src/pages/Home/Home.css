@@ -1,0 +1,27 @@
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+
+}
+.section-title-container{
+    display: flex;
+    height: 400px;
+    width: auto;
+    gap: 20px;
+    
+
+}
+.section-title{
+    display: flex;
+    position: absolute;
+    z-index: 10;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
