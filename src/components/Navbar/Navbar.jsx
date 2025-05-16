@@ -6,7 +6,7 @@ import { FaUserCircle } from "react-icons/fa";
 function Navbar(){
     return(
         <nav className="container">
-            <h1><Link>Logo</Link></h1>
+            <h1><Link to='/'>Logo</Link></h1>
             <div className="link-list">
                 <Link className="link" to='/'>Almofadas</Link>
                 <Link className="link" to='/'>sapatos</Link>

@@ -1,7 +1,44 @@
+.container-section-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
 .cadastro-container{
     display: flex;
+    flex-flow: column wrap;
     min-width: 100%;
-    height: auto;
+    min-height: 100%;
     background-color: #F4DD98;
     padding: 40px;
+    
+}
+.user-checkbox{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.user-checkbox input{
+    border-radius: 50px;
+}
+.inp-container-cadastro{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.label-inp{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.btn-cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #B81926 2px solid;
+    padding: 10px 25px;
 }
