@@ -1,0 +1,30 @@
+.bg-img{
+    background-image: url(../../assets/Home_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-inline-size: 100%;
+    min-width: 100%;
+    min-height: 50dvh;
+}
+
+.inp-container{
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 50dvh;
+    justify-content: center;
+    align-items: center;
+}
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 30%;
+    min-height: 5dvh;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+}
+.inp,
+.inp::placeholder{
+    text-align: center;
+}

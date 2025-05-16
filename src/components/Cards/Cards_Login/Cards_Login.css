@@ -1,0 +1,71 @@
+.container-login{
+    display: flex;
+    flex-flow: column wrap;
+    min-width: 100%;
+    min-height: 75dvh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-card{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    min-width: 40%;
+    min-height: 40dvh;
+    background-color: #F4DD98;
+    gap: .5rem;
+}
+.inp-login{
+    display: flex;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    min-width: 60%;
+    
+
+}
+
+input,
+.inp-login
+{
+    min-width: 80%;
+    min-height: 4dvh;
+    text-align: center;
+}
+.login-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.login-subtitle{
+    display: flex;
+    font-size: .8rem;
+    line-height:0dvh;
+    color: rgba(0, 0, 0, 0.747);
+
+}
+
+
+button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+.btn-login{
+    padding: 5px 20px;
+    border: 2px #B81926 solid;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+.btn-Login-cadastro{
+    text-decoration:dotted;
+    color: rgba(240, 248, 255, 0);
+    border-bottom: #B81926 2px solid;
+    border-radius: 20px;
+    font-weight: bold;
+}

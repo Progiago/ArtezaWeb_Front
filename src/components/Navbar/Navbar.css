@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    width: 100%;
+    min-height: 10vh;
+    background-color: #F4DD98;
+    justify-content: space-between;
+    align-items: center;
+    color: #B81926;
+}
+
+
+.link-list{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 5vh;
+    align-items: center;
+}
+

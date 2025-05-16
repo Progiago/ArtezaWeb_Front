@@ -1,0 +1,14 @@
+.card-home-container{
+    display: flex;
+    min-height: 25dvh;
+    flex-flow: row wrap;
+    gap: 5vh;
+}
+
+
+.card-home{
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
